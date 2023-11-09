@@ -230,6 +230,7 @@ body {
 }
 .orderButton:hover {
   background-color: springgreen;
+  cursor: pointer;
 }
 .mapDiv {
   overflow: scroll;
