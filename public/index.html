@@ -1,126 +1,17 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<meta charset="utf-8"/>
-<body>
-<header class="header">
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title>BurgerTown</title>
-    <link rel="stylesheet" type="text/css" href="./style.css">
-
-    <img src="https://www.shutterstock.com/shutterstock/photos/2212297943/display_1500/stock-vector-burger-fast-food-restaurant-advertisement-promo-poster-vector-template-2212297943.jpg" id="burgerTownImage" alt="burgerTownImage">
-    <h1 id="headline">
-        Welcome to BurgerTown!
-    </h1>
-</header>
-<main>
-    <section class="burgerSelect">
-
-        <h2>
-            Select your burger
-        </h2>
-        <p>Choose the burger that calls to you!</p>
-        <div class="burgerContainer">
-        <div class="burgerDiv">
-            <h3>
-                The Dark Knight
-            </h3>
-            <img src="https://www.stockland.com.au/~/media/shopping-centre/common/everyday-ideas/food-images/burger-day/beef-burger-with-charcoal-bun.ashx" alt="theDarkKnight" style="width: 400px; height: 300px;">
-            <ul>
-                <section class="allergies">
-                <li>Gluten free</li>
-                </section>
-                <li>Charcoal bun</li>
-                <li>400g beef patty</li>
-                <li>Caramelized onions</li>
-                <li>Lettuce</li>
-        </div>
-        <div class="burgerDiv">
-            <h3>
-                The Ooze
-            </h3>
-            <img src="https://www.fijitimes.com/wp-content/uploads/2022/06/Juicy-oozing-sticky-and-Doughy-the-perfect-burger-experience.jpg" alt="theOoze" style="width: 400px; height: 300px;">
-            <ul>
-                <section class="allergies">
-                    <li>Contains gluten & lactose</li>
-                </section>
-                <li>Toasted bun</li>
-                <li>2x 150g beef patty</li>
-                <li>Cheese</li>
-                <li>Ketchup</li>
-        </div>
-        <div class="burgerDiv">
-            <h3>
-                Chicken Whammy
-            </h3>
-            <img src="https://www.recipetineats.com/wp-content/uploads/2023/09/Crispy-fried-chicken-burgers_5.jpg" alt="chickenWhammy" style="width: 400px; height: 300px;">
-            <ul>
-                <section class="allergies">
-                <li>Gluten & lactose free</li>
-                </section>
-                <li>Deep fried bun</li>
-                <li>2x 600g chicken patty</li>
-                <li>Secret sauce</li>
-                <li>Lettuce</li>
-        </div>
-        </div>
-    </section>
-
-    <section class="customerInfo">
-        <h2>
-            Customer Information
-        </h2>
-        <p>
-            Provide your details below.
-        </p>
-        <h2>Delivery information:</h2>
-        <form>
-        <p>
-            <label for="fullName">Full Name:</label><br>
-            <input type="text" id="fullName" name="fullName" required="required" placeholder="First- and last name">
-        </p>
-        <p>
-            <label for="email">E-Mail:</label><br>
-            <input type="text" id="email" name="email" required="required" placeholder="E-mail adress">
-        </p>
-        <p>
-            <label for="street">Street:</label><br>
-            <input type="text" id="street" name="street" required="required" placeholder="Street name">
-        </p>
-        <p>
-            <label for="house">House:</label><br>
-            <input type="number" id="house" name="house" required="required" placeholder="House number" min="1">
-        </p>
-        <p>
-            <label for="payment">Payment method</label><br>
-            <select id="payment" name="payment">
-                <option>Card</option>
-                <option selected="selected">Swish</option>
-                <option>Paypal</option>
-                <option>Payment at delivery</option>
-            </select>
-        </p>
-        <p>
-            <label for="gender">Gender:</label><br>
-            <input type="radio" id="male" name="gender" required="required">
-            <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" required="required">
-            <label for="female">Female</label><br>
-            <input type="radio" id="nonB" name="gender" required="required">
-            <label for="nonB">Non-Binary</label><br>
-            <input type="radio" id="doNotWish" name="gender" required="required" checked>
-            <label for="doNotWish">Do not wish to provide</label><br>
-        </p>
-
-            </form>
-    </section>
-
-</main>
-<button type="submit">
-    <img src="img/send.png" alt="" style="width: 25px; height: 25px">
-    Order
-</button>
-<footer>
-    <hr>
-    All copyrights reserved
-</footer>
-</body>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "The Dark Knight",
+    "kCal": "650 kCal",
+    "gluten": "Gluten free",
+    "lactose": "Contains lactose",
+    "img": "https://www.stockland.com.au/~/media/shopping-centre/common/everyday-ideas/food-images/burger-day/beef-burger-with-charcoal-bun.ashx"
+  },
+  {
+    "name": "The Ooze",
+    "kCal": "999 kCal",
+    "gluten": "Contains gluten",
+    "lactose": "Contains lactose",
+    "img": "https://www.fijitimes.com/wp-content/uploads/2022/06/Juicy-oozing-sticky-and-Doughy-the-perfect-burger-experience.jpg"
+  },
+  {
+    "name": "Chicken Whammy",
+    "kCal": "800 kCal",
+    "gluten": "Gluten free",
+    "lactose": "Lactose free",
+    "img": "https://www.recipetineats.com/wp-content/uploads/2023/09/Crispy-fried-chicken-burgers_5.jpg"
+  }
+]
