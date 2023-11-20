@@ -10,8 +10,8 @@
     <img v-bind:src="burger.img" style="width: 400px; height: 300px;">
     <ul>
       <section class="allergies">
-        <li>{{ burger.gluten}} </li>
-        <li>{{ burger.lactose }}</li>
+        <li>{{ burger.lactose }} </li>
+        <li>{{ burger.gluten }}</li>
       </section>
     </ul>
   </div>
@@ -21,7 +21,7 @@
   export default {
     name: 'OneBurger',
     props: {
-      burger: Object
+      burger: Object,
     },
     data: function () {
       return {
